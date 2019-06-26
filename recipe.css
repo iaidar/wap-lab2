@@ -2,10 +2,13 @@ body {
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond;
+    background-image: url('img/background.jpg')
 }
 a {
     color: #A4A400;
-    display: block
+}
+a.block {
+    display: block;
 }
 .sub-title, .main-title {
     color: #A4A400 ;
@@ -51,4 +54,8 @@ ul.no-style {
   .major-step {
       font-style: italic;
       background-color: #FFFFA8;
+  }
+
+  ul.ingrediants  {
+      list-style-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif')
   }
