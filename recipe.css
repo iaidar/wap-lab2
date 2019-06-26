@@ -1,0 +1,54 @@
+body {
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond;
+}
+a {
+    color: #A4A400;
+    display: block
+}
+.sub-title, .main-title {
+    color: #A4A400 ;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+.main-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+ul.no-style {
+    list-style: none
+}
+
+/* tooltip css from w3s */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  /* end tooltip */
+
+  .major-step {
+      font-style: italic;
+      background-color: #FFFFA8;
+  }
